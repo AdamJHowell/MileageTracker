@@ -8,10 +8,10 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var nameEditText: EditText
-    private lateinit var emailEditText: EditText
-    private lateinit var ageEditText: EditText
-    private lateinit var scoreEditText: EditText
+    private lateinit var odometerEditText: EditText
+    private lateinit var dateEditText: EditText
+    private lateinit var volumeEditText: EditText
+    private lateinit var priceEditText: EditText
     private lateinit var btnSave: Button
 
     private lateinit var databaseHelper: DatabaseHelper
@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        nameEditText = findViewById(R.id.editTextOdometer)
-        emailEditText = findViewById(R.id.editTextDate)
-        ageEditText = findViewById(R.id.editTextVolume)
-        scoreEditText = findViewById(R.id.editTextPrice)
+        odometerEditText = findViewById(R.id.editTextOdometer)
+        dateEditText = findViewById(R.id.editTextDate)
+        volumeEditText = findViewById(R.id.editTextVolume)
+        priceEditText = findViewById(R.id.editTextPrice)
         btnSave = findViewById(R.id.btnSave)
 
         databaseHelper = DatabaseHelper(this)
@@ -34,15 +34,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun saveData() {
-        val name = nameEditText.text.toString().trim()
-        val email = emailEditText.text.toString().trim()
-        val age = ageEditText.text.toString().toIntOrNull() ?: 0
-        val score = scoreEditText.text.toString().toDoubleOrNull() ?: 0.0
+        val odometer = odometerEditText.text.toString().trim()
+        val date = dateEditText.text.toString().trim()
+        val volume = volumeEditText.text.toString().toIntOrNull() ?: 0
+        val price = priceEditText.text.toString().toDoubleOrNull() ?: 0.0
         val duration = Toast.LENGTH_SHORT
         var text = "Data failed to save"
 
-        if (name.isNotEmpty() && email.isNotEmpty()) {
-            val rowId = databaseHelper.insertData(name, email, age, score)
+        if (odometer.isNotEmpty() && date.isNotEmpty()) {
+            val rowId = databaseHelper.insertData(odometer, date, volume, price)
             if (rowId > -1)
                 text = "Data saved successfully"
             val toast = Toast.makeText(this, text, duration) // in Activity
