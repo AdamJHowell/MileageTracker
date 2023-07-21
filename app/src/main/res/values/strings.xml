@@ -1,3 +1,8 @@
 <resources>
 	<string name="app_name">Mileage Tracker</string>
+    <string name="enter_odometer_reading">Enter odometer reading</string>
+    <string name="enter_date">Enter date</string>
+    <string name="enter_volume">Enter volume</string>
+    <string name="enter_price">Enter price</string>
+    <string name="save_entry">Save entry</string>
 </resources>
