@@ -21,7 +21,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
 	override fun onCreate(db: SQLiteDatabase)
 	{
 		val createTableQuery =
-			"CREATE TABLE $TABLE_NAME (_id INTEGER PRIMARY KEY AUTOINCREMENT, $COLUMN_ODOMETER TEXT, $COLUMN_DATE TEXT, $COLUMN_VOLUME INTEGER, $COLUMN_PRICE REAL);"
+			"CREATE TABLE $TABLE_NAME (_id INTEGER PRIMARY KEY AUTOINCREMENT, $COLUMN_ODOMETER INTEGER, $COLUMN_DATE TEXT, $COLUMN_VOLUME REAL, $COLUMN_PRICE REAL);"
 
 		db.execSQL(createTableQuery)
 	}
@@ -32,7 +32,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
 		onCreate(db)
 	}
 
-	fun insertData(odometer: String, date: String, volume: Int, price: Double): Long
+	fun insertData(odometer: Int, date: String, volume: Double, price: Double): Long
 	{
 		val values = ContentValues()
 		values.put(COLUMN_ODOMETER, odometer)
