@@ -29,9 +29,11 @@ Vehicles
 
 Fill-Up Records
 "Vehicle","Date","Time","Odometer Reading","Distance Unit","Volume","Volume Unit","Price per Unit","Total Cost","Payment","Partial Fill-Up?","Previously Missed Fill-Ups?","Fuel Efficiency","Fuel Efficiency Unit","Fuel Category","Fuel Type","Has Fuel Additive?","Fuel Additive Name","Fuel Brand","Fueling Station Address","Place Street","Place City","Place State","Place Country","Place Postal Code","Place Latitude","Place Longitude","Device Latitude","Device Longitude","Driving Mode","City Driving Percentage","Highway Driving Percentage","Average Speed","Tags","Notes"
+"Altima","7/15/2023","08:11","106,421","mi","20.101","gal","$3.969","$79.78","Zion's Joint Checking","No","No","23.332","MPG","Gasoline","Gasoline - Regular (87)","No","","Maverik","24 S Geneva Rd Vineyard, UT 84058","24 S Geneva Rd","Vineyard","UT","USA","84059","","","40.29654778","-111.73476973","Normal","50","50","","",""
 
 Event Records
 "Vehicle","Date","Time","Odometer Reading","Distance Unit","Type","Sub Types","Total Cost","Payment","Place Name","Place Address","Place Street","Place City","Place State","Place City","Place Country","Place Postal Code","Place Latitude","Place Longitude","Device Latitude","Device Longitude","Tags","Notes"
+"Altima","5/14/2022","10:43","93,600","mi","Service","Engine Oil, Oil Filter","$22.00","Zion's Joint Checking","Home","","639 S 1810 W","Orem","UT","USA","84059","","","40.2855519","-111.73859399","",""
 
 Trip Records
 "Vehicle","Start Date","Start Time","Start Odometer Reading","Start Location","End Date","End Time","End Odometer Reading","End Location","Start Latitude","Start Longitude","End Latitude","End Longitude","Distance Unit","Distance","Duration","Type","Purpose","Client","Tax Deduction Rate","Tax Deduction Amount","Reimbursement Rate","Reimbursement Amount","Paid","Tags","Notes"
