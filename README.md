@@ -20,22 +20,22 @@ Calculated for each record:
 	mileage
 ```
 
-Metadata
+## Metadata
 ```
 {
     "Android Version": "13",
-    "aCar Version": "5.4.3",
-    "aCar Build Date": "07/11/2023",
-    "aCar Database Version": "18",
-    "Export Date/Time": "07/20/2023 - 13:55",
-    "Export Version": "11",
-    "Minimum Supported aCar Version": "5.0.0",
+    "MileageTracker Version": "1.0.0",
+    "MileageTracker Build Date": "2023-07-11",
+    "MileageTracker Database Version": "1",
+    "Export Date/Time": "2023-07-20 - 13:55",
+    "Export Version": "1",
+    "Minimum Supported MileageTracker Version": "1.0.0",
     "Date Format": "yyyy-MM-dd",
     "Time Format": "HH:mm"
 }
 ```
 
-Vehicles
+## Vehicles
 ```
 {
     "Name": "Altima",
@@ -64,11 +64,11 @@ Vehicles
 }
 ```
 
-Fill-Up Records
+## Fill-Up Records
 ```
 {
     "Vehicle": "Altima",
-    "Date": "7/15/2023",
+    "Date": "2023-07-15",
     "Time": "08:11",
     "Odometer Reading": "106,421",
     "Distance Unit": "mi",
@@ -105,11 +105,11 @@ Fill-Up Records
 }
 ```
 
-Event Records
+## Event Records
 ```
 {
     "Vehicle": "Altima",
-    "Date": "5/14/2022",
+    "Date": "2022-05-14",
     "Time": "10:43",
     "Odometer Reading": "93,600",
     "Distance Unit": "mi",
@@ -133,18 +133,18 @@ Event Records
 }
 ```
 
-Trip Records
+## Trip Records
 ```
 {
     "Vehicle": "Altima",
-    "Start Date": "5/14/2022",
+    "Start Date": "2022-05-14",
     "Start Time": "10:43",
     "Start Odometer Reading": "93,600",
-    "Start Location":
-    "End Date": "5/14/2022",
+    "Start Location": "",
+    "End Date": "2022-05-14",
     "End Time": "10:44",
     "End Odometer Reading": "93,601",
-    "End Location":
+    "End Location": "",
     "Start Latitude": "40.2855519",
     "Start Longitude": "-111.73859399",
     "End Latitude": "40.2855519",
