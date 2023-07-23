@@ -21,20 +21,146 @@ Calculated for each record:
 ```
 
 Metadata
-"Android Version","aCar Version","aCar Build Date","aCar Database Version","Export Date/Time","Export Version","Minimum Supported aCar Version","Date Format","Time Format"
-"13","5.4.3","07/11/2023","18","07/20/2023 - 13:55","11","5.0.0","M/d/yyyy","HH:mm"
+```
+{
+    "Android Version": "13",
+    "aCar Version": "5.4.3",
+    "aCar Build Date": "07/11/2023",
+    "aCar Database Version": "18",
+    "Export Date/Time": "07/20/2023 - 13:55",
+    "Export Version": "11",
+    "Minimum Supported aCar Version": "5.0.0",
+    "Date Format": "yyyy-MM-dd",
+    "Time Format": "HH:mm"
+}
+```
 
 Vehicles
-"Name","Type","Year","Make","Model","SubModel","Engine","Transmission","Drive Type","Body Type","Bed Type","Active","License Plate","VIN","Insurance Policy","Color","Fuel Tank Capacity","Volume Unit","Distance Unit","Country","Region","City","Notes"
-"Altima","CAR","2012","Nissan","Altima","S","2.5L L4 GAS","Automatic","FWD","Sedan","","Yes","F96 2HK","1N4AL2AP9CC248968","","","20.0","US_GALLON","MILE","United States","Utah","Orem",""
+```
+{
+    "Name": "Altima",
+    "Type": "CAR",
+    "Year": "2012",
+    "Make": "Nissan",
+    "Model": "Altima",
+    "SubModel": "S",
+    "Engine": "2.5L L4 GAS",
+    "Transmission": "Automatic",
+    "Drive Type": "FWD",
+    "Body Type": "Sedan",
+    "Bed Type": "",
+    "Active": "Yes",
+    "License Plate": "F96 2HK",
+    "VIN": "1N4AL2AP9CC248968",
+    "Insurance Policy": "",
+    "Color": "Gray",
+    "Fuel Tank Capacity": "20.0",
+    "Volume Unit": "US_GALLON",
+    "Distance Unit": "MILE",
+    "Country": "United States",
+    "Region": "Utah",
+    "City": "Orem",
+    "Notes": ""
+}
+```
 
 Fill-Up Records
-"Vehicle","Date","Time","Odometer Reading","Distance Unit","Volume","Volume Unit","Price per Unit","Total Cost","Payment","Partial Fill-Up?","Previously Missed Fill-Ups?","Fuel Efficiency","Fuel Efficiency Unit","Fuel Category","Fuel Type","Has Fuel Additive?","Fuel Additive Name","Fuel Brand","Fueling Station Address","Place Street","Place City","Place State","Place Country","Place Postal Code","Place Latitude","Place Longitude","Device Latitude","Device Longitude","Driving Mode","City Driving Percentage","Highway Driving Percentage","Average Speed","Tags","Notes"
-"Altima","7/15/2023","08:11","106,421","mi","20.101","gal","$3.969","$79.78","Zion's Joint Checking","No","No","23.332","MPG","Gasoline","Gasoline - Regular (87)","No","","Maverik","24 S Geneva Rd Vineyard, UT 84058","24 S Geneva Rd","Vineyard","UT","USA","84059","","","40.29654778","-111.73476973","Normal","50","50","","",""
+```
+{
+    "Vehicle": "Altima",
+    "Date": "7/15/2023",
+    "Time": "08:11",
+    "Odometer Reading": "106,421",
+    "Distance Unit": "mi",
+    "Volume": "20.101",
+    "Volume Unit": "gal",
+    "Price per Unit": "$3.969",
+    "Total Cost": "$79.78",
+    "Payment": "Zion's Joint Checking",
+    "Partial Fill-Up?": "No",
+    "Previously Missed Fill-Ups?": "No",
+    "Fuel Efficiency": "23.332",
+    "Fuel Efficiency Unit": "MPG",
+    "Fuel Category": "Gasoline",
+    "Fuel Type": "Gasoline - Regular (87)",
+    "Has Fuel Additive?": "No",
+    "Fuel Additive Name": "",
+    "Fuel Brand": "Maverik",
+    "Fueling Station Address": "24 S Geneva Rd Vineyard, UT 84058",
+    "Place Street": "24 S Geneva Rd",
+    "Place City": "Vineyard",
+    "Place State": "UT",
+    "Place Country": "USA",
+    "Place Postal Code": "84059",
+    "Place Latitude": "",
+    "Place Longitude": "",
+    "Device Latitude": "40.29654778",
+    "Device Longitude": "-111.73476973",
+    "Driving Mode": "Normal",
+    "City Driving Percentage": "50",
+    "Highway Driving Percentage": "50",
+    "Average Speed": "",
+    "Tags": "",
+    "Notes": ""
+}
+```
 
 Event Records
-"Vehicle","Date","Time","Odometer Reading","Distance Unit","Type","Sub Types","Total Cost","Payment","Place Name","Place Address","Place Street","Place City","Place State","Place City","Place Country","Place Postal Code","Place Latitude","Place Longitude","Device Latitude","Device Longitude","Tags","Notes"
-"Altima","5/14/2022","10:43","93,600","mi","Service","Engine Oil, Oil Filter","$22.00","Zion's Joint Checking","Home","","639 S 1810 W","Orem","UT","USA","84059","","","40.2855519","-111.73859399","",""
+```
+{
+    "Vehicle": "Altima",
+    "Date": "5/14/2022",
+    "Time": "10:43",
+    "Odometer Reading": "93,600",
+    "Distance Unit": "mi",
+    "Type": "Service",
+    "Sub Types": "Engine Oil, Oil Filter",
+    "Total Cost": "$22.00",
+    "Payment": "Zion's Joint Checking",
+    "Place Name": "Home",
+    "Place Address": "",
+    "Place Street": "639 S 1810 W",
+    "Place City": "Orem",
+    "Place State": "UT",
+    "Place Postal Code": "84059",
+    "Place Country": "USA",
+    "Place Latitude": "40.2855519",
+    "Place Longitude": "-111.73859399",
+    "Device Latitude": "40.2855519",
+    "Device Longitude": "-111.73859399",
+    "Tags": "",
+    "Notes": ""
+}
+```
 
 Trip Records
-"Vehicle","Start Date","Start Time","Start Odometer Reading","Start Location","End Date","End Time","End Odometer Reading","End Location","Start Latitude","Start Longitude","End Latitude","End Longitude","Distance Unit","Distance","Duration","Type","Purpose","Client","Tax Deduction Rate","Tax Deduction Amount","Reimbursement Rate","Reimbursement Amount","Paid","Tags","Notes"
+```
+{
+    "Vehicle": "Altima",
+    "Start Date": "5/14/2022",
+    "Start Time": "10:43",
+    "Start Odometer Reading": "93,600",
+    "Start Location":
+    "End Date": "5/14/2022",
+    "End Time": "10:44",
+    "End Odometer Reading": "93,601",
+    "End Location":
+    "Start Latitude": "40.2855519",
+    "Start Longitude": "-111.73859399",
+    "End Latitude": "40.2855519",
+    "End Longitude": "-111.73859399",
+    "Distance Unit": "mi",
+    "Distance": "50.1",
+    "Duration": "",
+    "Type": "Vacation",
+    "Purpose": "",
+    "Client": "",
+    "Tax Deduction Rate": "",
+    "Tax Deduction Amount": "",
+    "Reimbursement Rate": "",
+    "Reimbursement Amount": "",
+    "Paid": "",
+    "Tags": "",
+    "Notes": ""
+}
+```
